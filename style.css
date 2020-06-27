@@ -1,0 +1,274 @@
+
+
+.navbar{
+    width: 100vw;
+    min-height: 10vh;
+    background-color:#463030bd!important;
+}
+
+.navbar-brand h1{
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.navbar-nav{
+    font-size: 1rem;
+    font-weight: 700;
+    /* margin-top: 100px; */
+    margin-right: 150px;
+}
+
+.navbar-nav li a:hover{
+    color: #000!important;
+}
+
+/* home page */
+/* header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/keyboard.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header .info-text{
+    color: #fff;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+}
+
+header .info-icon{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info-icon .fas{
+    color: #fff;
+    padding: 7px;
+    font-size: 0.5rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.info-icon .fas:hover{
+    background-color: #1764FD;
+    border-color: royalblue;
+}
+
+/* end homepage */
+
+/* code school */
+
+article{
+    padding-bottom: 50px;
+}
+
+.info-img img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info-head{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.info-head .rule{
+    width: 10%;
+    height: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: red;
+}
+
+.info-list{
+    margin:30px 30px;
+}
+
+.info-list h3{
+    padding-left: 20px;
+}
+
+.info-list ul{
+    list-style-type: georgian;
+}
+
+.info-btn{
+    margin-left: 50px;
+    padding-left: 30px;
+}
+
+.info-btn .btn{
+    padding: 5px 30px;
+}
+
+/* fixed article */
+
+.fixed-article{
+    width: 100vw;
+    background-image: url(images/coding-laptop.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.info-head .rule1,
+.info-head .rule2{
+    width: 5%;
+    height: 5px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.info-content{
+    display: flex;
+    padding: 50px;
+    color: rgb(102, 91, 91);
+}
+
+.info-icon1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.info-icon1 .fas{
+    color: #fff;
+    background-color: #3399CC;
+    padding: 15px;
+    font-size: 5rem;
+    border: 2px solid #3399CC;
+    border-radius: 200%;
+}
+
+.info-icon1 .fas:hover{
+    border: 5px solid #084a6b;
+    border-radius: 200%;
+}
+/* end code school */
+
+/* services */
+
+.service{
+    padding-bottom: 50px;
+}
+
+.fixed-service{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/lit-keyboard.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.info-head p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.fixed-service .info-content{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.info-icon .fab{
+    color: #fff;
+    padding: 15px;
+    font-size: 5rem;
+}
+
+/* our work */
+#ourwork{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+#our-work .info-head h2{
+    color: rgb(102, 91, 91);
+}
+.work-btn{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* testimonials */
+#fixed-testimonials{
+    padding: 50px;
+}
+.info-head h4{
+    padding: 40px 0px;
+}
+.fixed-testimonial{
+    width: 100vw;
+    /* height: 100vh; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(images/kids-playing.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+/* contact us */
+
+#contactus{
+    padding: 50px 10px;
+}
+.contact-icon .fab{
+    color: #665b5b79;
+    font-size: 1.5rem;
+    padding: 4px;
+    border: 2px solid #665B5B;
+    border-radius: 200%;
+}
+
+.contact-icon .fab:hover{
+    background-color: red;
+    border: none;
+}
+
+.contact-btn{
+    padding-top: 40px;
+}
+
+/* footer */
+.footer-content{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    background-color: #463030de;
+    padding: 30px 0px;
+}
+
+.footer-content .contact-icon .fab{
+    color:rgb(168, 165, 165);
+} */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+/* @media (max-width: 767.98px) {
+
+} */
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
