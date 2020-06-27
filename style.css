@@ -1,7 +1,4 @@
-
-
 .navbar{
-    width: 100vw;
     min-height: 10vh;
     background-color:#463030bd!important;
 }
@@ -24,8 +21,7 @@
 }
 
 /* home page */
-/* header{
-    width: 100vw;
+ header{
     height: 100vh;
     background-image: url(images/keyboard.jpeg);
     background-position: center;
@@ -37,7 +33,7 @@
 header .info-text{
     color: #fff;
     /* margin-top: 50px; */
-    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
 }
 
 header .info-icon{
@@ -108,7 +104,6 @@ article{
 /* fixed article */
 
 .fixed-article{
-    width: 100vw;
     background-image: url(images/coding-laptop.jpeg);
     background-position: center;
     background-size: cover;
@@ -160,7 +155,6 @@ article{
 }
 
 .fixed-service{
-    width: 100vw;
     height: 100vh;
     background-image: url(images/lit-keyboard.jpeg);
     background-position: center;
@@ -206,7 +200,6 @@ article{
     padding: 40px 0px;
 }
 .fixed-testimonial{
-    width: 100vw;
     /* height: 100vh; */
     padding-top: 40px;
     padding-bottom: 40px;
