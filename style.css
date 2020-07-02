@@ -273,7 +273,6 @@ footer{
 
     /* our partners */
     .partner .fixed-info .fixed-icon{
-        background: red;
         align-items: center;
         justify-content: center;
         margin: 20px auto;
@@ -345,7 +344,6 @@ footer{
     
         /* our partners */
         .partner .fixed-info .fixed-icon{
-            background: red;
             align-items: center;
             justify-content: center;
             margin: 20px auto;
