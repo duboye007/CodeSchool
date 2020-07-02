@@ -1,27 +1,22 @@
-.navbar{
-    min-height: 10vh;
-    background-color:#463030bd!important;
+body{
+    font-family: 'Heebo', sans-serif;
 }
 
-.navbar-brand h1{
-    font-size: 5rem;
+/* Navigation */
+.navbar-brand{
     font-weight: 700;
-    margin: 0;
 }
 
-.navbar-nav{
-    font-size: 1rem;
-    font-weight: 700;
-    /* margin-top: 100px; */
-    margin-right: 150px;
-}
-
+.navbar-nav li a:active,
 .navbar-nav li a:hover{
-    color: #000!important;
+    color:cyan!important;
 }
+/* End Navigation */
 
-/* home page */
- header{
+/* Home */
+.home-content{
+    color: #fff;
+    width: 100%;
     height: 100vh;
     background-image: url(images/keyboard.jpeg);
     background-position: center;
@@ -30,238 +25,367 @@
     background-attachment: fixed;
 }
 
-header .info-text{
-    color: #fff;
-    /* margin-top: 50px; */
-    margin-bottom: 50px;
+.home-info p{
+    font-size: 1rem;
+    padding: 100px;
 }
 
-header .info-icon{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.info-icon .fas{
-    color: #fff;
-    padding: 7px;
-    font-size: 0.5rem;
+.home-icon .fas{
+    color: #26D3FF;
+    padding: 4px 8px;
     border: 2px solid #fff;
-    border-radius: 50%;
+    border-radius: 100%;
 }
+/* End Home */
 
-.info-icon .fas:hover{
-    background-color: #1764FD;
-    border-color: royalblue;
+/* Code School */
+.code-content{
+    background-color: #fff;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center ;
 }
-
-/* end homepage */
-
-/* code school */
-
-article{
-    padding-bottom: 50px;
+.code-img img{
+    max-width: 100%;
 }
-
-.info-img img{
-    margin-top: 50px;
-    margin-bottom: 50px;
+.code-title .h2 {
+    font-size: 3rem;
+    line-height: 5px;
 }
-
-.info-head{
-    margin-left: 50px;
-    margin-right: 50px;
+.code-title h3{
+    font-size: 1.5rem;
 }
-
-.info-head .rule{
-    width: 10%;
-    height: 5px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: red;
+.code-rule{
+    background-color: #ff0000;
+    height: 3px;
+    width: 50px;
+    margin: 30px 0;
 }
-
-.info-list{
-    margin:30px 30px;
+.code-text p{
+    font-size: 1rem;
+    line-height: 30px;
 }
-
-.info-list h3{
-    padding-left: 20px;
+.code-list p{
+    font-size: 1rem;
+    margin-left: 20px;
 }
-
-.info-list ul{
-    list-style-type: georgian;
+.code-list ul{
+    list-style-type: circle;
+    margin-bottom: 40px;
 }
-
-.info-btn{
-    margin-left: 50px;
-    padding-left: 30px;
+.code-btn .btn{
+    margin: 10px 0;
 }
-
-.info-btn .btn{
-    padding: 5px 30px;
-}
-
-/* fixed article */
-
-.fixed-article{
-    background-image: url(images/coding-laptop.jpeg);
+/* why code school */
+.fixed-content{
+    color: #fff;
+    max-width: 100%;
+    background-image: url(images/boy-coding.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #fff;
+    padding: 100px 0;
 }
-
-.info-head .rule1,
-.info-head .rule2{
-    width: 5%;
+.fixed-title h2{
+    font-size: 3rem;
+}
+.fixed-title p{
+    margin: 20px 0;
+}
+.fixed-rule{
+    background-color: #ff0000;
     height: 5px;
-    background-color: red;
+    width: 50px;
+    margin: 10px 0;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
 }
-
-.info-content{
+.fixed-rule1{
+    background-color: #ff0000;
+    height: 5px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fixed-info{
+    margin: 30px 0;
+    padding: 30px 0;
     display: flex;
-    padding: 50px;
-    color: rgb(102, 91, 91);
+    justify-content: center;
+}
+.fixed-icon .fas{
+    color:#fff;
+    font-size: 3rem;
+    padding: 8px 9px;
+    border: 2px solid cyan;
+    border-radius: 200%;
+}
+.fixed-icon .fas:hover{
+    background-color: cyan;
+    border: 3px solid rgb(10, 105, 105);
+    border-radius: 200%;
+}
+.fixed-text{
+    margin: 10px 0;
 }
 
-.info-icon1{
-    padding-top: 10px;
-    padding-bottom: 20px;
+/* Our Services */
+
+#ourservices{
+    padding: 100px 0;
+}
+.fixed-title h6{
+    margin: 20px auto;
+}
+#ourservices .fixed-icon .fas{
+    color: #000;
+}
+.service-btn .btn{
+    padding: 10px 40px;
 }
 
-.info-icon1 .fas{
+/* Our Partners */
+
+.partner{
     color: #fff;
-    background-color: #3399CC;
-    padding: 15px;
-    font-size: 5rem;
-    border: 2px solid #3399CC;
-    border-radius: 200%;
-}
-
-.info-icon1 .fas:hover{
-    border: 5px solid #084a6b;
-    border-radius: 200%;
-}
-/* end code school */
-
-/* services */
-
-.service{
-    padding-bottom: 50px;
-}
-
-.fixed-service{
-    height: 100vh;
+    max-width: 100%;
     background-image: url(images/lit-keyboard.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #fff;
+    padding: 100px 0;
 }
 
-.info-head p{
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
+/* Our work */
 
-.fixed-service .info-content{
-    margin-top: 50px;
-    padding-top: 50px;
-}
-.info-icon .fab{
-    color: #fff;
-    padding: 15px;
-    font-size: 5rem;
-}
-
-/* our work */
 #ourwork{
-    padding-top: 50px;
-    padding-bottom: 50px
+    padding: 100px 0;
 }
-#our-work .info-head h2{
-    color: rgb(102, 91, 91);
+#ourwork .fixed-title p{
+    margin: 20px 0;
 }
 .work-btn{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.work-video iframe{
+    max-width: 100%;
 }
 
 /* testimonials */
-#fixed-testimonials{
-    padding: 50px;
-}
-.info-head h4{
-    padding: 40px 0px;
-}
-.fixed-testimonial{
-    /* height: 100vh; */
-    padding-top: 40px;
-    padding-bottom: 40px;
+
+#testimonials{
+    color: #fff;
+    max-width: 100%;
     background-image: url(images/kids-playing.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #fff;
+    padding: 100px 0;
 }
 
-/* contact us */
+/* Our contact */
 
 #contactus{
-    padding: 50px 10px;
+    padding: 100px 0;
+}
+.contact-content{
+    display: flex;
+    margin: 30px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-map iframe{
+    max-width: 100%;
+}
+.contact-icon{
+    margin-bottom: 20px;
 }
 .contact-icon .fab{
-    color: #665b5b79;
-    font-size: 1.5rem;
-    padding: 4px;
-    border: 2px solid #665B5B;
+    font-size: 2rem;
+    border: 2px solid #212529;
     border-radius: 200%;
+    padding: 4px 5px;
+    background-color: #fff;
 }
-
 .contact-icon .fab:hover{
-    background-color: red;
+    background-color: #f00;
     border: none;
+
 }
 
-.contact-btn{
-    padding-top: 40px;
-}
+/* Footer */
 
-/* footer */
-.footer-content{
+footer{
+    max-width: 100%;
+    padding: 10px 50px;
+    background-color: #212529;
     color: #fff;
+}
+.footer-content{
     display: flex;
     justify-content: space-around;
-    background-color: #463030de;
-    padding: 30px 0px;
+}
+.footer-icon .fab{
+    border: 2px solid #212529;
+    border-radius: 200%;
+    padding: 4px 5px;
+    /* background-color: #fff; */
+}
+.footer-icon .fab:hover{
+    background-color: #f00;
+    border: none;
+
 }
 
-.footer-content .contact-icon .fab{
-    color:rgb(168, 165, 165);
-} */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    /* code school */
+    .code-content{
+        display: block;
+        background-color: #fff;
+        padding: 100px 0;
+    }
+    .code-img img{
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    /* why code school*/
+    .fixed-title h2{
+        font-size: 1.5rem;
+    }
+    .fixed-info{
+        margin: 30px 0;
+        padding: 30px 0;
+        display: block;
+    }
+    .fixed-icon .fas{
+        color:#fff;
+        font-size: 1.5rem;
+        padding: 8px 9px;
+        border: 2px solid cyan;
+        border-radius: 200%;
+    }
+
+    /* our partners */
+    .partner .fixed-info .fixed-icon{
+        background: red;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+
+    /*our work */
+    .work-video iframe{
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    /* our contact */
+    .contact-content{
+        display: block;
+        margin: 30px 10px;
+    }
+
+    .contact-icon .fab{
+        font-size: 1.5rem;
+        border: 2px solid #212529;
+        border-radius: 200%;
+        padding: 4px 5px;
+        background-color: #fff;
+    }
+
+    .contact-map iframe{
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    /* footer */
+
+    .footer-content{
+        display: block;
+        
+    }
 
 }
 
-/* // Small devices (landscape phones, less than 768px) */
-/* @media (max-width: 767.98px) {
-
-} */
-
-/* // Medium devices (tablets, less than 992px) */
+/* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-
+        /* code school */
+        .code-content{
+            display: block;
+            background-color: #fff;
+            padding: 100px 0;
+        }
+        .code-img img{
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+        /* why code school*/
+        .fixed-title h2{
+            font-size: 1.5rem;
+        }
+        .fixed-info{
+            margin: 30px 0;
+            padding: 30px 0;
+            display: block;
+        }
+        .fixed-icon .fas{
+            color:#fff;
+            font-size: 1.5rem;
+            padding: 8px 9px;
+            border: 2px solid cyan;
+            border-radius: 200%;
+        }
+    
+        /* our partners */
+        .partner .fixed-info .fixed-icon{
+            background: red;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+        }
+    
+    
+        /*our work */
+        .work-video iframe{
+            padding: 10px;
+            max-width: 100%;
+        }
+    
+        /* our contact */
+        .contact-content{
+            display: block;
+            margin: 30px 10px;
+        }
+    
+        .contact-icon .fab{
+            font-size: 1.5rem;
+            border: 2px solid #212529;
+            border-radius: 200%;
+            padding: 4px 5px;
+            background-color: #fff;
+        }
+    
+        .contact-map iframe{
+            padding: 10px;
+            max-width: 100%;
+        }
+    
+        /* footer */
+    
+        .footer-content{
+            display: block;
+            
+        }
+    
+    }
 }
 
-/* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-
-}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
